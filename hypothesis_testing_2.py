@@ -7,10 +7,8 @@ Created on Thu Feb 12 12:33:57 2026
 
 # =============================================================================
 # One-sample one-sided t-test
-"""
-Case study - Assuming that each team typically gets 5 corners per match, let's verify if Manchester City gets more 
-since they are an attacking team 
-"""
+# Case study - Assuming that each team typically gets 5 corners per match, let's verify if Manchester City gets more 
+#              since they are an attacking team 
 # =============================================================================
 
 import pandas as pd
@@ -86,9 +84,7 @@ else:
 
 # =============================================================================
 # Two-sample two-sided t-test
-"""
-Case study - testing if Liverpool had a different average corners per game than Everton
-"""
+# Case study - testing if Liverpool had a different average corners per game than Everton
 # =============================================================================
 
 liverpool_corners = summary.loc[summary["name"] == 'Liverpool']["counts"]
