@@ -7,9 +7,7 @@ Created on Wed Feb 11 18:16:49 2026
 
 # =============================================================================
 # SIGN TEST - non-parametric test to verify if a couple of groups are of equal sizes
-"""
-Case study - verify if Heung-Min Son is ambidextrous with shooting (using both feet the same number of times)
-"""
+# Case study - verify if Heung-Min Son is ambidextrous with shooting (using both feet the same number of times)
 # =============================================================================
 
 import os
